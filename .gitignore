@@ -1,0 +1,68 @@
+.venv/
+.env
+ 
+ # Python
+ __pycache__/
+ **/__pycache__/
+ *.py[cod]
+ *$py.class
+ 
+ # Virtual environments
+ venv/
+ 
+ # Env files
+ .env.*
+ !.env.example
+ 
+ # Build artifacts
+ build/
+ dist/
+ .eggs/
+ *.egg-info/
+ pip-wheel-metadata/
+ wheels/
+ 
+ # Installer logs
+ pip-log.txt
+ pip-delete-this-directory.txt
+ 
+ # Test/coverage
+ htmlcov/
+ .tox/
+ .nox/
+ .coverage
+ .coverage.*
+ .cache
+ .pytest_cache/
+ coverage.xml
+ *.cover
+ 
+ # Type checker / linters
+ .mypy_cache/
+ .ruff_cache/
+ .pyrightcache/
+ 
+ # Jupyter
+ .ipynb_checkpoints
+ 
+ # IDE/editor
+ .vscode/
+ .idea/
+ 
+ # OS
+ .DS_Store
+ 
+ # Logs
+ *.log
+ logs/
+ 
+ # Databases
+ *.sqlite
+ *.sqlite3
+ 
+ # Node
+ node_modules/
+# Python recursive cache ignore (redundant for safety)
+**/__pycache__/**
+**/*.py[cod]
+**/*$py.class
